@@ -1,6 +1,11 @@
 @import url('reset.css');
 /* font-family: 'Montserrat', sans-serif; */
 
+/* HEADER ------------ */
+
+.header {
+	background: #81A36B;
+}
 /* !GLOBAL STYLES */
 body {
 font-family: 'Roboto', sans-serif;
