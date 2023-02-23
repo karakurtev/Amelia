@@ -1,0 +1,60 @@
+@import url('reset.css');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* !GLOBAL STYLES */
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #F5F5F5;
+color: #161616;
+font-size: 18px;
+}
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+/* *TODO: PRICE */
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+}
+.price-box {
+}
+
+
+/* !FOOTER */
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-conteiner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-conteiner h3 {
+	font-size: 24px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+/* .footer-contact ul > li:last-child {
+	margin-bottom: 0;
+} */
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
