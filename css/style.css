@@ -87,9 +87,8 @@ margin-bottom: 60px;
 
 /* ABOUT_us _____________ */
 .about_us {
-	margin:0  120px;
-	text-align: center;
-	
+	margin-bottom: 120px;
+	width: 540px;
 }
 
 .title {
@@ -100,7 +99,17 @@ line-height: 34px;
 letter-spacing: 0em;
 margin-bottom: 60px;
 text-align: center;
+}
 
+.text_about{
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	
+	
 }
 
 /* *TODO: PRICE */
