@@ -1,11 +1,6 @@
 @import url('reset.css');
 /* font-family: 'Montserrat', sans-serif; */
 
-/* HEADER ------------ */
-
-.header {
-	background: #81A36B;
-}
 /* !GLOBAL STYLES */
 body {
 font-family: 'Roboto', sans-serif;
@@ -19,12 +14,114 @@ font-size: 18px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+
+/* HEADER ------------ */
+
+.header {
+	background: #81A36B;
+	padding: 20px 0;
+}
+
+.container-header {
+	font-size: 0;
+}
+
+.header-logo {
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 130px;
+}
+
+.logo-img {
+	display: block;
+}
+
+.logo-img img {
+	width: 100%;
+    height: 100%;
+}
+.menu {
+	display: inline-block;
+	font-size: 18px;
+}
+
+/* .menu ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} */
+
+
+/*______________ MAIN_____________ */
+
+.main {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 120px;
+
+}
+
+h1 {
+font-family: Montserrat;
+font-size: 62px;
+font-weight: 400;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+
+}
+
+.text {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+
+}
+
+/* ABOUT_us _____________ */
+.about_us {
+	margin:0  120px;
+	text-align: center;
+	
+}
+
+.title {
+font-family: Vetrino;
+font-size: 32px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+margin-bottom: 60px;
+text-align: center;
+
+}
+
 /* *TODO: PRICE */
 .price {
 	background: #81A36B;
 	padding: 80px 0;
+	margin-bottom: 120px;
 }
 .price-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* WE WORK__________ */
+
+.we_work {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 120px;
 }
 
 
@@ -55,6 +152,15 @@ font-size: 18px;
 .footer-contact ul > li + li {
 	margin-top: 20px;
 }
+
+.footer-social ul {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+
+}
+
 /* .footer-contact ul > li:last-child {
 	margin-bottom: 0;
 } */
