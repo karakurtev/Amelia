@@ -2,12 +2,16 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 /* !GLOBAL STYLES */
+html, body{
+	scroll-behavior: smooth;
+}
 body {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 background: #F5F5F5;
 color: #161616;
 font-size: 18px;
+scroll-behavior: smooth;
 }
 .container {
 	max-width: 1140px;
@@ -24,7 +28,9 @@ font-size: 18px;
 }
 
 .container-header {
+	
 	font-size: 0;
+
 }
 
 .header-logo {
@@ -44,14 +50,20 @@ font-size: 18px;
 .menu {
 	display: inline-block;
 	font-size: 18px;
+	width: 825px;
+		
 }
 
-/* .menu ul {
+.menu ul {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-} */
+} 
 
+.menu ul li a {
+	text-decoration: none;
+	color: #161616;
+
+}
 
 /*______________ MAIN_____________ */
 
@@ -85,14 +97,47 @@ margin-bottom: 60px;
 
 }
 
+.button {
+	display: flex;
+	gap: 65px;
+	text-align: center;
+
+}
+
+.zakaz {
+font-size: 18px;
+background: #81A36B;
+width: 190px;
+height: 60px;
+border: none;
+
+}
+
+.help {
+	border: 1px solid #81A36B;
+	width: 190px;
+	height: 60px;
+	padding: auto;
+
+}
+
+.help a{
+		text-decoration: none;
+	color: #161616;
+	display: block;
+	height: 100%;
+}
+
+
+
 /* ABOUT_us _____________ */
 .about_us {
-	margin-bottom: 120px;
+	margin: 0 auto 120px auto ;
 	width: 540px;
 }
 
 .title {
-font-family: Vetrino;
+font-family: Montserrat;
 font-size: 32px;
 font-weight: 400;
 line-height: 34px;
@@ -116,6 +161,7 @@ text-align: center;
 .price {
 	background: #81A36B;
 	padding: 80px 0;
+	text-align: center;
 	margin-bottom: 120px;
 }
 .price-box {
@@ -133,6 +179,36 @@ text-align: center;
 	margin-bottom: 120px;
 }
 
+/* ------our WORKS------ */
+
+.cards {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 120px;
+	
+}
+
+.card {
+	background-color: #81A36B;
+	width: 350px;
+	height: 510 px;
+	padding-bottom: 40px;
+	text-align: center;
+	flex: 1 1 33%;
+}
+
+.card img {
+	margin: 15px;	
+}
+
+.card p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 164.06%;
+
+}
 
 /* !FOOTER */
 .footer {

@@ -20,13 +20,14 @@
 				
 			</div>
 			<div class="menu">
-				<ul>
-					<li><a href="#footer"></a>Главная</li>
-					<li><a href="#"></a>О нас</li>
-					<li><a href="#"></a>Кас мы работаем</li>
-					<li><a href="#"></a>Наши работы</li>
-					<li><a href="#"></a>Контакты</li>
-				</ul>
+					<ul>
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#about_us">О нас</a></li>
+						<li><a href="#we_work">Кас мы работаем</a></li>
+						<li><a href="#our_works">Наши работы</a></li>
+						<li><a href="#footer">Контакты</a></li>
+					</ul>
+								
 			</div>
 
 
@@ -34,30 +35,36 @@
 	</header>
 	
 	<main>
-		<section class="main container">
+		<section class="main container" id="main">
 			<div class="main_text">
 				<h1>Amelia Flowers</h1>
 				 <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
 					Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-				 </p> 				
-				<button>
-				 Заказать букет	
-				</button>
-				<a href="#">Помощь флориста</a>			
+				 </p> 
+				 <div class="button">
+					<button class="zakaz">Заказать букет</button>
+					<div class="help">
+						<a href="#footer">Помощь флориста</a>
+					</div>
+				 </div>				
+							
 			</div>
 			<div class="main_img">
 				<img src="images/flower.jpg" alt="flower" width="540" height="670">
 			</div>
 		</section>
 
-		<section class="container about_us">	
-			<p class="title">
+		<section class="container" id="about_us">	
+			<div class="about_us">
+				<p class="title">
 				О НАС
-			</p>
-			<p class="text_about">
+				</p>
+				<p class="text_about">
 				Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
 				 Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-			</p>
+				</p>
+			</div>
+
 			
 			
 
@@ -90,7 +97,7 @@
 			</div>
 		</section>
 
-		<section class="container we_work">
+		<section class="container we_work" id="we_work">
 			<div class="how_we_work">
 				<img src="images/work.jpg" alt="how_we_work">
 			</div>
@@ -106,9 +113,40 @@
 			</div>
 		</section>
 
+		<section class="container our_works" id="our_works" >
+			<div>
+			<p class="title">
+				Наши работы
+			</p>				
+			</div>
+			<div class="cards">
+				<div class="card">
+					<img src="images/work_1.jpg" alt="work_1" width="320" height="402" >
+					<p>
+						Букет” Флоренция”
+					</p>
+				</div>
+				<div class="card">
+					<img src="images/work_2.jpg" alt="work_2" width="320" height="402" >
+					<p>
+						Букет” Флоренция”
+					</p>
+				</div>
+				<div class="card">
+					<img src="images/work_3.jpg" alt="work_3" width="320" height="402" >
+					<p>
+						Букет” Флоренция”
+					</p>
+				</div>
+			</div>
+
+
+		</section>
+
+
 	</main>
 
-	<footer class="footer" id="fooret">
+	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="flex-conteiner">
 				<div class="footer-contact">
