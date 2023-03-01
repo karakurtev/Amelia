@@ -27,16 +27,15 @@ scroll-behavior: smooth;
 	padding: 20px 0;
 }
 
-.container-header {
+.container-header {	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	
-	font-size: 0;
-
 }
 
 .header-logo {
-	display: inline-block;
-	font-size: 18px;
-	margin-right: 130px;
+		margin-right: 130px;
 }
 
 .logo-img {
@@ -47,9 +46,8 @@ scroll-behavior: smooth;
 	width: 100%;
     height: 100%;
 }
+
 .menu {
-	display: inline-block;
-	font-size: 18px;
 	width: 825px;
 		
 }
