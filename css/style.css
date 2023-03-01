@@ -34,10 +34,6 @@ scroll-behavior: smooth;
 	
 }
 
-.header-logo {
-		margin-right: 130px;
-}
-
 .logo-img {
 	display: block;
 }
@@ -47,14 +43,11 @@ scroll-behavior: smooth;
     height: 100%;
 }
 
-.menu {
-	width: 825px;
-		
-}
 
 .menu ul {
 	display: flex;
 	justify-content: space-between;
+	gap: 90px;
 } 
 
 .menu ul li a {
@@ -105,25 +98,17 @@ margin-bottom: 60px;
 .zakaz {
 font-size: 18px;
 background: #81A36B;
-width: 190px;
-height: 60px;
 border: none;
+padding: 15px 20px;
 
 }
 
-.help {
-	border: 1px solid #81A36B;
-	width: 190px;
-	height: 60px;
-	padding: auto;
-
-}
-
-.help a{
-		text-decoration: none;
+.help a {
+	text-decoration: none;
 	color: #161616;
-	display: block;
-	height: 100%;
+	display: inline-block;
+	padding: 15px 20px;
+	border: 1px solid #81A36B;
 }
 
 
@@ -175,6 +160,10 @@ text-align: center;
 	gap: 30px;
 	align-items: center;
 	margin-bottom: 120px;
+
+}
+.how_we_work, .text_how_we {
+	flex: 1 1 50%;
 }
 
 /* ------our WORKS------ */
@@ -189,8 +178,7 @@ text-align: center;
 .card {
 	background-color: #81A36B;
 	width: 350px;
-	height: 510 px;
-	padding-bottom: 40px;
+	padding-bottom: 45px;
 	text-align: center;
 	flex: 1 1 33%;
 }
